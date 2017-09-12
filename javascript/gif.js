@@ -99,6 +99,8 @@ var artists = ["Sam Hunt", "Luke Bryan", "Florida Georgia Line", "Carrie Underwo
 
         // Deleting the movies prior to adding new movies
         // (this is necessary otherwise you will have repeat buttons)
+
+        // I am not sure why my empty is not clearing out the content in the box after I hit submit
         $("#buttons-view").empty();
 
         // Looping through the array of movies
